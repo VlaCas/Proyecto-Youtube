@@ -1,5 +1,28 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
     background-color: #0F0F0F;
+}
+
+@font-face{
+    font-family: roboto;
+    src: url(./Roboto/Roboto-Regular.ttf);
+}
+
+.filas {
+    display: flex;
+}
+
+#imagen1 img {
+    padding: 8px;
+    margin-top: 3px;
+}
+
+#imagen2 img {
+    padding: 18px 14px 18px 16px;
 }
 
 #barra-navegacion {
@@ -11,40 +34,84 @@ body{
     justify-content: space-between;
 }
 
-.filas {
+#barra-vertical {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 0px 4px;
+    font-family: roboto;
+    src: url(./Roboto/Roboto-Regular.ttf);
+    width: 64px;
+    height: 561px;
 }
 
-#imagen1 img {
-    padding: 8px;
+#barra-vertical p {
+    display: block;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.3rem;
+    color: white;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
-#imagen2 img {
-    padding: 18px 14px 18px 16px;
+#barra-vertical button {
+    background-color: #0F0F0F;
+    border: 1px solid #0F0F0F;
+}
+
+#boton-principal {
+    padding: 19px 0 14px;
+}
+#boton-shorts {
+    padding: 10px 0 14px;
+}
+#boton-suscripciones {
+    padding: 10px 0 14px;
+}
+#boton-biblioteca {
+    padding: 11px 0 14px;
 }
 
 #boton-busqueda {
     background-color: #ffffff14;
-    border: 0px solid #FFFFFF14;
-    padding: 1px 6px;
-    width: 64px;
+    border: 1px solid #2c2e2c;
+    border-left: 0px;
+    padding: 1px 7px 0px 6px;
+    width: 63px;
     border-radius: 0px 40px 40px 0px;
 }
 
 #boton-microfono {
-    background-color: #000000;
+    background-color: #0F0F0F;
+    border: 0px;
+    margin: 0px 0px 0px 8px;
 }
 
-
 #barradebusqueda input {
-    width: 540px;
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 400;
+    width: 541px;
     height: 40px;
     background-color: #121212;
-    padding: 1px 4px 1px 16px;
+    padding: 1px 4px 2px 16px;
     margin-left: 68px;
     box-sizing: border-box;
-    border: 1px solid #FFFFFF14;
+    border: 1px solid #2c2e2c;
     border-radius: 40px 0px 0px 40px;
+}
+
+#boton-camarita {
+    background-color: #0F0F0F;
+    border: 0px;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    margin-right: 8px;
 }
 
 #fila1 {
@@ -53,18 +120,56 @@ body{
     align-items: center;
 }
 
-
 #fila2 {
     width: 728px;
     height: 40px;
 }
 
 #fila3 {
-    width: 225px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    min-width: 225px;
     height: 40px;
 }
 
-* {
-    margin: 0;
-    padding: 0;
+#boton-imagen-perfil {
+    background-color: #0F0F0F;
+    border: 0px;
+    width: 60px;
+    height: 34px;
+    padding: 1px 6px;
+    margin-right: 16px;
+}
+
+#boton-campanita {
+    background-color: #0F0F0F;
+    border: 0px;
+    width: 40px;
+    height: 40px;
+    margin: 2px 8px 0 0;
+}
+
+#fila-botones button {
+    margin: 12px 12px 12px 0;
+    background-color: #ffffff14;
+    color: white;
+    font-family: roboto;
+    border: none;
+    border-radius: 8px;
+    max-width: min-content;
+    font-size: 14px;
+    padding: 0 12px;
+    height: 32px;
+}
+
+#fila-botones {
+    display: flex;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 16px;
+    width: 1500px 56px;
+    justify-content: start;
+    align-items: center;
 }
