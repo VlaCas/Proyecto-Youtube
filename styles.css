@@ -12,6 +12,10 @@ body {
     src: url(./Roboto/Roboto-Regular.ttf);
 }
 
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
 .filas {
     display: flex;
 }
@@ -188,4 +192,27 @@ body {
     flex-direction: row;
     width: 1504px;
     height: 342px;
+    margin: 0 4px 0 45px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#fila1-videos img {
+    border-radius: 12px;
+    width: 360px;
+    padding: 0 0 3px 0;
+}
+
+.titulo-video {
+    color:white;
+    font-family: roboto;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    font-weight: 400;
+}
+
+.texto-informativo {
+    font-family: roboto;
+    color: #aaa;
+    font-size: 0.8rem;
 }
