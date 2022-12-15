@@ -41,7 +41,7 @@ a:link, a:visited, a:active {
 #contenido-general {
     display: grid;
     grid-template-columns: 4% 96% 96%;
-    grid-template-rows: 6% 94%;
+    grid-template-rows: 2.3% 97.7%;
 }
 
 #seccion-general-videos {
@@ -193,9 +193,10 @@ a:link, a:visited, a:active {
     width: 1504px;
     height: 342px;
     margin: 0 0 0 45px;
-    gap: 10px;
+    gap: 9px;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
+    padding: 21px 0 0 4px;
 }
 
 #fila2-videos {
@@ -204,20 +205,10 @@ a:link, a:visited, a:active {
     width: 1504px;
     height: 342px;
     margin: 0 0 0 45px;
-    gap: 10px;
+    gap: 9px;
     justify-content: space-around;
-    align-items: center;
-}
-
-#fila3-videos {
-    display: flex;
-    flex-direction: row;
-    width: 1504px;
-    height: 342px;
-    margin: 0 0 0 45px;
-    gap: 10px;
-    justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
+    padding: 0 0 0 4px;
 }
 
 #seccion-inferior-video {
@@ -241,13 +232,13 @@ a:link, a:visited, a:active {
 .miniaturas-videos {
     border-radius: 6px;
     width: 360px;
-    margin-top: -35px;
+    /*margin-top: -115px;*/
 }
 
 .miniaturas-videos2 {
     border-radius: 6px;
     width: 360px;
-    margin-top: -53px;
+    /*margin-top: -133px;*/
 }
 
 .imagenes-canales {
