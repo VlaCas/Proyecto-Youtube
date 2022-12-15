@@ -198,6 +198,28 @@ a:link, a:visited, a:active {
     align-items: center;
 }
 
+#fila2-videos {
+    display: flex;
+    flex-direction: row;
+    width: 1504px;
+    height: 342px;
+    margin: 0 0 0 45px;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#fila3-videos {
+    display: flex;
+    flex-direction: row;
+    width: 1504px;
+    height: 342px;
+    margin: 0 0 0 45px;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
 #seccion-inferior-video {
     display: grid;
     grid-template-columns: 36px 324px;
@@ -219,12 +241,13 @@ a:link, a:visited, a:active {
 .miniaturas-videos {
     border-radius: 6px;
     width: 360px;
+    margin-top: -35px;
 }
 
 .miniaturas-videos2 {
     border-radius: 6px;
     width: 360px;
-    margin-top: -18px;
+    margin-top: -53px;
 }
 
 .imagenes-canales {
