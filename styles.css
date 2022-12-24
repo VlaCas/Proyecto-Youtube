@@ -198,6 +198,7 @@ a:link, a:visited, a:active {
     font-size: 14px;
     padding: 0 12px;
     height: 32px;
+    transition: background-color 0.6s cubic-bezier(0.05, 0, 0, 1);
 }
 
 #fila-botones {
@@ -218,7 +219,6 @@ a:link, a:visited, a:active {
 
 #fila-botones button:hover {
     background-color: #3F3F3F;
-    transition: background-color 0.5s cubic-bezier(0.05,0,0,1);
     cursor: pointer;
 }
 
