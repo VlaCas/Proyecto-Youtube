@@ -96,12 +96,15 @@ a:link, a:visited, a:active {
 #boton-principal {
     padding: 19px 0 14px;
 }
+
 #boton-shorts {
     padding: 10px 0 14px;
 }
+
 #boton-suscripciones {
     padding: 10px 0 14px;
 }
+
 #boton-biblioteca {
     padding: 11px 0 14px;
 }
@@ -123,6 +126,7 @@ a:link, a:visited, a:active {
 
 #barradebusqueda input {
     font-family: roboto;
+    color: #E2E2E2;
     font-size: 16px;
     font-weight: 400;
     width: 541px;
@@ -131,8 +135,13 @@ a:link, a:visited, a:active {
     padding: 1px 4px 2px 16px;
     margin-left: 76px;
     box-sizing: border-box;
-    border: 1px solid #2c2e2c;
+    border: 1px solid #303030;
     border-radius: 40px 0px 0px 40px;
+}
+
+#barradebusqueda input:focus {
+    outline: none;
+    border: 1px solid #1C62B9; 
 }
 
 #boton-camarita {
@@ -181,7 +190,7 @@ a:link, a:visited, a:active {
 
 #fila-botones button {
     margin: 12px 12px 12px 0;
-    background-color: #ffffff14;
+    background-color: #272727;
     color: white;
     font-family: roboto;
     border: none;
