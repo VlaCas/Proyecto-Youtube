@@ -4,10 +4,10 @@
 }
 
 body {
-    background-color: #0F0F0F;
+    background-color: #0f0f0f;
 }
 
-@font-face{
+@font-face {
     font-family: roboto;
     src: url(./Roboto/Roboto-Regular.ttf);
 }
@@ -42,7 +42,7 @@ a:link, a:visited, a:active {
 }
 
 #barra-navegacion {
-    background-color: #0F0F0F;
+    background-color: #0f0f0f;
     position: sticky;
     top: 0;
     display: flex;
@@ -89,8 +89,8 @@ a:link, a:visited, a:active {
 }
 
 #barra-vertical button {
-    background-color: #0F0F0F;
-    border: 1px solid #0F0F0F;
+    background-color: #0f0f0f;
+    border: 1px solid #0f0f0f;
 }
 
 #boton-principal {
@@ -119,14 +119,14 @@ a:link, a:visited, a:active {
 }
 
 #boton-microfono {
-    background-color: #0F0F0F;
+    background-color: #0f0f0f;
     border: 0px;
     margin: 0px 0px 0px 8px;
 }
 
 #barradebusqueda input {
     font-family: roboto;
-    color: #E2E2E2;
+    color: #e2e2e2;
     font-size: 16px;
     font-weight: 400;
     width: 541px;
@@ -141,11 +141,11 @@ a:link, a:visited, a:active {
 
 #barradebusqueda input:focus {
     outline: none;
-    border: 1px solid #1C62B9; 
+    border: 1px solid #1c62b9;
 }
 
 #boton-camarita {
-    background-color: #0F0F0F;
+    background-color: #0f0f0f;
     border: 0px;
     width: 40px;
     height: 40px;
@@ -173,7 +173,7 @@ a:link, a:visited, a:active {
 }
 
 #boton-imagen-perfil {
-    background-color: #0F0F0F;
+    background-color: #0f0f0f;
     border: 0px;
     width: 60px;
     height: 34px;
@@ -181,7 +181,7 @@ a:link, a:visited, a:active {
 }
 
 #boton-campanita {
-    background-color: #0F0F0F;
+    background-color: #0f0f0f;
     border: 0px;
     width: 40px;
     height: 40px;
@@ -202,7 +202,7 @@ a:link, a:visited, a:active {
 }
 
 #fila-botones {
-    background-color: #0F0F0F;
+    background-color: #0f0f0f;
     position: sticky;
     top: 56px;
     display: flex;
@@ -218,7 +218,7 @@ a:link, a:visited, a:active {
 }
 
 #fila-botones button:hover {
-    background-color: #3F3F3F;
+    background-color: #3f3f3f;
     cursor: pointer;
 }
 
@@ -281,7 +281,7 @@ a:link, a:visited, a:active {
 
 .titulo-video {
     display: block;
-    color:white;
+    color: white;
     font-family: roboto;
     font-size: 1rem;
     line-height: 1.4rem;
@@ -291,7 +291,7 @@ a:link, a:visited, a:active {
 
 .titulo-video2 {
     display: block;
-    color:white;
+    color: white;
     font-family: roboto;
     font-size: 1rem;
     line-height: 1.4rem;

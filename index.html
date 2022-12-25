@@ -1,544 +1,1314 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="Imagenes/favicon.ico">
-    <title>Youtube</title>
-</head>
 
-<body>
+    <head>
 
-    <nav id="barra-navegacion">
-        <div class="filas" id="fila1">
-            <div id="imagen1">
-                <img src="Imagenes/logo-tres-rayas.ico" alt="Icono Tres Rayas" width="24px">
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="shortcut icon" href="Imagenes/favicon.ico" />
+        <title>Youtube</title>
+
+    </head>
+
+    <body>
+
+        <nav id="barra-navegacion">
+
+            <div class="filas" id="fila1">
+                <div id="imagen1">
+                    <img
+                        src="Imagenes/logo-tres-rayas.ico"
+                        alt="Icono Tres Rayas"
+                        width="24px"
+                    />
+                </div>
+                <div id="imagen2">
+                    <a href="https://www.youtube.com">
+                        <img
+                            src="Imagenes/logo-youtube.ico"
+                            alt="Logo Youtube"
+                            width="106px"
+                        />
+                    </a>
+                </div>
             </div>
-            <div id="imagen2">
-                <a href="https://www.youtube.com">
-                    <img src="Imagenes/logo-youtube.ico" alt="Logo Youtube" width="106px">
-                </a>
+
+            <div class="filas" id="fila2">
+                <div id="barradebusqueda">
+                    <input type="text" placeholder="Buscar" />
+                </div>
+                <button id="boton-busqueda">
+                    <img
+                        id="imagen3"
+                        src="Imagenes/lupa-busqueda.ico"
+                        alt="Lupa Busqueda"
+                    />
+                </button>
+                <button id="boton-microfono">
+                    <img src="Imagenes/microfono.ico" alt="Microfono" />
+                </button>
             </div>
+
+            <div class="filas" id="fila3">
+                <button id="boton-camarita">
+                    <img src="Imagenes/camarita.ico" alt="Camarita" />
+                </button>
+                <button id="boton-campanita">
+                    <img src="Imagenes/campanita.ico" alt="Campanita" />
+                </button>
+                <button id="boton-imagen-perfil">
+                    <img
+                        id="imagen4"
+                        src="Imagenes/imagen-perfil.ico"
+                        alt="Imagen Perfil"
+                    />
+                </button>
+            </div>
+        </nav>
+
+        <div id="contenido-general">
+
+            <aside id="barra-vertical">
+
+                <button id="boton-principal">
+                    <img src="Imagenes/principal.ico" alt="Icono Principal" />
+                    <p>Principal</p>
+                </button>
+                <button id="boton-shorts">
+                    <img src="Imagenes/shorts.ico" alt="Icono Shorts" />
+                    <p>Shorts</p>
+                </button>
+                <button id="boton-suscripciones">
+                    <img
+                        src="Imagenes/suscripciones.ico"
+                        alt="Icono Suscripciones"
+                    />
+                    <p>Suscripciones</p>
+                </button>
+                <button id="boton-biblioteca">
+                    <img src="Imagenes/biblioteca.ico" alt="Icono Biblioteca" />
+                    <p>Biblioteca</p>
+                </button>
+
+            </aside>
+
+            <div id="fila-botones">
+
+                <button>Todos</button>
+                <button>Musica</button>
+                <button>Deportes</button>
+                <button>Programacion</button>
+                <button>Mundial</button>
+                <button>Comedia</button>
+                <button>Noticias</button>
+                <button>Robert Jordan</button>
+                <button>Python</button>
+                <button>Canserbero</button>
+                <button>Messi</button>
+                <button>Ready Player One</button>
+                <button>PES 13</button>
+                <button>Terraria</button>
+                <button>Bad Bunny</button>
+                <button>Rush Rally 3</button>
+
+            </div>
+
+            <div id="seccion-general-videos">
+
+                <div id="fila1-videos">
+
+                    <div>
+                        <a
+                            href="https://www.youtube.com/watch?v=r12ROrvh5ZQ"
+                            target="_blank"
+                        >
+                            <img
+                                class="miniaturas-videos"
+                                src="Imagenes/miniatura1.jpg"
+                                alt="Miniatura 1"
+                            />
+                        </a>
+                        <div id="seccion-inferior-video">
+                            <div id="columna-imagen-canal">
+                                <a
+                                    class="imagenes-canales"
+                                    href="https://www.youtube.com/@MachuElBibliotecario"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="Imagenes/imagen-canal1.jpg"
+                                        alt="Imagen Canal 1"
+                                    />
+                                </a>
+                            </div>
+                            <div id="columna-informacion-video">
+                                <a
+                                    class="titulo-video"
+                                    href="https://www.youtube.com/watch?v=r12ROrvh5ZQ"
+                                    target="_blank"
+                                >
+                                    FEID - Feliz Cumpleaños Ferxxo <br />
+                                    (Letra/Lyric) <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/@MachuElBibliotecario"
+                                    target="_blank"
+                                >
+                                    Santi <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/watch?v=r12ROrvh5ZQ"
+                                    target="_blank"
+                                >
+                                    4 M de vistas • hace 3 meses
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <a
+                            href="https://www.youtube.com/watch?v=TNOnIWxCUoQ"
+                            target="_blank"
+                        >
+                            <img
+                                class="miniaturas-videos"
+                                src="Imagenes/miniatura2.jpg"
+                                alt="Miniatura 2"
+                            />
+                        </a>
+                        <div id="seccion-inferior-video">
+                            <div id="columna-imagen-canal">
+                                <a
+                                    class="imagenes-canales"
+                                    href="https://www.youtube.com/@UbamanMobile"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="Imagenes/imagen-canal2.jpg"
+                                        alt="Imagen Canal 2"
+                                    />
+                                </a>
+                            </div>
+                            <div id="columna-informacion-video">
+                                <a
+                                    class="titulo-video"
+                                    href="https://www.youtube.com/watch?v=TNOnIWxCUoQ"
+                                    target="_blank"
+                                >
+                                    ¡COUNTER A DARIUS EN <br />
+                                    CLASIFICATORIA! | Wild Rift <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/@UbamanMobile"
+                                    target="_blank"
+                                >
+                                    Ubaman Mobile <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/watch?v=TNOnIWxCUoQ"
+                                    target="_blank"
+                                >
+                                    10,655 vistas • hace 20 horas
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a
+                            href="https://www.youtube.com/watch?v=TdrL3QxjyVw&list=RDGMEM6ijAnFTG9nX1G-kbWBUCJAVMTdrL3QxjyVw&start_radio=1"
+                            target="_blank"
+                        >
+                            <img
+                                class="miniaturas-videos2"
+                                src="Imagenes/miniatura3.jpg"
+                                alt="Miniatura 3"
+                            />
+                        </a>
+                        <div id="seccion-inferior-video2">
+                            <div id="columna-imagen-canal"></div>
+                            <div id="columna-informacion-video">
+                                <a
+                                    class="titulo-video2"
+                                    href="https://www.youtube.com/watch?v=TdrL3QxjyVw&list=RDGMEM6ijAnFTG9nX1G-kbWBUCJAVMTdrL3QxjyVw&start_radio=1"
+                                    target="_blank"
+                                >
+                                    Lana del Rey - Summertime Sadness <br />
+                                    (Official Music Video) <br />
+                                </a>
+                                <a
+                                    class="texto-informativo2"
+                                    href="https://www.youtube.com/watch?v=TdrL3QxjyVw&list=RDGMEM6ijAnFTG9nX1G-kbWBUCJAVMTdrL3QxjyVw&start_radio=1"
+                                    target="_blank"
+                                >
+                                    Lana del Rey, Alice Kristiansen, Tove Lo y
+                                    muchos más
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a
+                            href="https://www.youtube.com/watch?v=Wf4RpMjmO9w&t=41s"
+                            target="_blank"
+                        >
+                            <img
+                                class="miniaturas-videos"
+                                src="Imagenes/miniatura4.jpg"
+                                alt="Miniatura 4"
+                            />
+                        </a>
+                        <div id="seccion-inferior-video">
+                            <div id="columna-imagen-canal">
+                                <a
+                                    class="imagenes-canales"
+                                    href="https://www.youtube.com/@CoreanoLocoTV"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="Imagenes/imagen-canal3.jpg"
+                                        alt="Imagen Canal 3"
+                                    />
+                                </a>
+                            </div>
+                            <div id="columna-informacion-video">
+                                <a
+                                    class="titulo-video"
+                                    href="https://www.youtube.com/watch?v=Wf4RpMjmO9w&t=41s"
+                                    target="_blank"
+                                >
+                                    COREANO PRUEBA COMIDA <br />
+                                    COLOMBIANA 😂co Ep. 18 <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/@CoreanoLocoTV"
+                                    target="_blank"
+                                >
+                                    COREANO LOCO TV <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/watch?v=Wf4RpMjmO9w&t=41s"
+                                    target="_blank"
+                                >
+                                    10,655 vistas • hace 20 horas</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="fila2-videos">
+
+                    <div>
+                        <a
+                            href="https://www.youtube.com/watch?v=T11Le1uLL8U"
+                            target="_blank"
+                        >
+                            <img
+                                class="miniaturas-videos"
+                                src="Imagenes/miniatura5.jpg"
+                                alt="Miniatura 5"
+                            />
+                        </a>
+                        <div id="seccion-inferior-video">
+                            <div id="columna-imagen-canal">
+                                <a
+                                    class="imagenes-canales"
+                                    href="https://www.youtube.com/@DosLocosDeViaje"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="Imagenes/imagen-canal4.jpg"
+                                        alt="Imagen Canal 4"
+                                    />
+                                </a>
+                            </div>
+                            <div id="columna-informacion-video">
+                                <a
+                                    class="titulo-video"
+                                    href="https://www.youtube.com/watch?v=T11Le1uLL8U"
+                                    target="_blank"
+                                >
+                                    Fuimos a un CARACAS MAGALLANES <br />
+                                    @Ary Tenorio | Cambiaron las... <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/@DosLocosDeViaje"
+                                    target="_blank"
+                                >
+                                    Dos Locos De Viaje <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/watch?v=T11Le1uLL8U"
+                                    target="_blank"
+                                >
+                                    76,057 vistas • hace 2 semanas
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a
+                            href="https://www.youtube.com/watch?v=_AFuWCk5LR8"
+                            target="_blank"
+                        >
+                            <img
+                                class="miniaturas-videos"
+                                src="Imagenes/miniatura6.jpg"
+                                alt="Miniatura 6"
+                            />
+                        </a>
+                        <div id="seccion-inferior-video">
+                            <div id="columna-imagen-canal">
+                                <a
+                                    class="imagenes-canales"
+                                    href="https://www.youtube.com/@Teloresumoasinomas"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="Imagenes/imagen-canal5.jpg"
+                                        alt="Imagen Canal 5"
+                                    />
+                                </a>
+                            </div>
+                            <div id="columna-informacion-video">
+                                <a
+                                    class="titulo-video"
+                                    href="https://www.youtube.com/watch?v=_AFuWCk5LR8"
+                                    target="_blank"
+                                >
+                                    Divergente, Como Los Juegos Del <br />
+                                    Hambre Pero Peor | #TeLoResumo <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/@Teloresumoasinomas"
+                                    target="_blank"
+                                >
+                                    Te Lo Resumo <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/watch?v=_AFuWCk5LR8"
+                                    target="_blank"
+                                >
+                                    4 M de vistas • hace 2 años
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a
+                            href="https://www.youtube.com/watch?v=Bg8-DD3iUS0&t=2362s"
+                            target="_blank"
+                        >
+                            <img
+                                class="miniaturas-videos"
+                                src="Imagenes/miniatura7.jpg"
+                                alt="Miniatura 7"
+                            />
+                        </a>
+                        <div id="seccion-inferior-video">
+                            <div id="columna-imagen-canal">
+                                <a
+                                    class="imagenes-canales"
+                                    href="https://www.youtube.com/@escueladenada"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="Imagenes/imagen-canal6.jpg"
+                                        alt="Imagen Canal 6"
+                                    />
+                                </a>
+                            </div>
+                            <div id="columna-informacion-video">
+                                <a
+                                    class="titulo-video"
+                                    href="https://www.youtube.com/watch?v=Bg8-DD3iUS0&t=2362s"
+                                    target="_blank"
+                                >
+                                    ¿Cómo se construye una leyenda? feat. <br />
+                                    Arcangél - EDN & Friends #24 <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/@escueladenada"
+                                    target="_blank"
+                                >
+                                    Escuela de Nada <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/watch?v=Bg8-DD3iUS0&t=2362s"
+                                    target="_blank"
+                                >
+                                    670,722 vistas • hace 5 días
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a
+                            href="https://www.youtube.com/watch?v=hoQmSA6MRAk&list=RDhoQmSA6MRAk&start_radio=1"
+                            target="_blank"
+                        >
+                            <img
+                                class="miniaturas-videos2"
+                                src="Imagenes/miniatura8.jpg"
+                                alt="Miniatura 8"
+                            />
+                        </a>
+                        <div id="seccion-inferior-video2">
+                            <div id="columna-imagen-canal"></div>
+                            <div id="columna-informacion-video">
+                                <a
+                                    class="titulo-video2"
+                                    href="https://www.youtube.com/watch?v=hoQmSA6MRAk&list=RDhoQmSA6MRAk&start_radio=1"
+                                    target="_blank"
+                                >
+                                    Mix: BAD BUNNY - OTRA NOCHE EN MIAMI |
+                                    <br />
+                                    X100PRE [Visualizer] <br />
+                                </a>
+                                <a
+                                    class="texto-informativo2"
+                                    href="https://www.youtube.com/watch?v=hoQmSA6MRAk&list=RDhoQmSA6MRAk&start_radio=1"
+                                    target="_blank"
+                                >
+                                    Bad Bunny, J Balvin, Mora y mucho más
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="fila2-videos">
+
+                    <div>
+                        <a
+                            href="https://www.youtube.com/watch?v=C-Bivj9PLXk"
+                            target="_blank"
+                        >
+                            <img
+                                class="miniaturas-videos"
+                                src="Imagenes/miniatura9.jpg"
+                                alt="Miniatura 9"
+                            />
+                        </a>
+                        <div id="seccion-inferior-video">
+                            <div id="columna-imagen-canal">
+                                <a
+                                    class="imagenes-canales"
+                                    href="https://www.youtube.com/@Platzi"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="Imagenes/imagen-canal7.jpg"
+                                        alt="Imagen Canal 7"
+                                    />
+                                </a>
+                            </div>
+                            <div id="columna-informacion-video">
+                                <a
+                                    class="titulo-video"
+                                    href="https://www.youtube.com/watch?v=C-Bivj9PLXk"
+                                    target="_blank"
+                                >
+                                    Qué lenguaje de programación aprender <br />
+                                    primero <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/@Platzi"
+                                    target="_blank"
+                                >
+                                    Platzi <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/watch?v=C-Bivj9PLXk"
+                                    target="_blank"
+                                >
+                                    826,717 vistas • hace 1 año
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a
+                            href="https://www.youtube.com/watch?v=r0tfMFpPFSA"
+                            target="_blank"
+                        >
+                            <img
+                                class="miniaturas-videos"
+                                src="Imagenes/miniatura10.jpg"
+                                alt="Miniatura 10"
+                            />
+                        </a>
+                        <div id="seccion-inferior-video">
+                            <div id="columna-imagen-canal">
+                                <a
+                                    class="imagenes-canales"
+                                    href="https://www.youtube.com/@TheWildProject"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="Imagenes/imagen-canal8.jpg"
+                                        alt="Imagen Canal 8"
+                                    />
+                                </a>
+                            </div>
+                            <div id="columna-informacion-video">
+                                <a
+                                    class="titulo-video"
+                                    href="https://www.youtube.com/watch?v=r0tfMFpPFSA"
+                                    target="_blank"
+                                >
+                                    Hacker deja loco a Jordi Wild entrando
+                                    <br />
+                                    en su móvil sin que se dé cuenta <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/@TheWildProject"
+                                    target="_blank"
+                                >
+                                    The Wild Project <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/watch?v=r0tfMFpPFSA"
+                                    target="_blank"
+                                >
+                                    1.9 M de vistas • hace 2 semanas
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a
+                            href="https://www.youtube.com/watch?v=BjhW3vBA1QU"
+                            target="_blank"
+                        >
+                            <img
+                                class="miniaturas-videos"
+                                src="Imagenes/miniatura11.jpg"
+                                alt="Miniatura 11"
+                            />
+                        </a>
+                        <div id="seccion-inferior-video">
+                            <div id="columna-imagen-canal">
+                                <a
+                                    class="imagenes-canales"
+                                    href="https://www.youtube.com/channel/UCt-k6JwNWHMXDBGm9IYHdsg"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="Imagenes/imagen-canal9.jpg"
+                                        alt="Imagen Canal 9"
+                                    />
+                                </a>
+                            </div>
+                            <div id="columna-informacion-video">
+                                <a
+                                    class="titulo-video"
+                                    href="https://www.youtube.com/watch?v=BjhW3vBA1QU"
+                                    target="_blank"
+                                >
+                                    J Balvin, Dua Lipa, Bad Bunny, Tainy -
+                                    <br />
+                                    UN DIA (ONE DAY) <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/channel/UCt-k6JwNWHMXDBGm9IYHdsg"
+                                    target="_blank"
+                                >
+                                    J Balvin <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/watch?v=BjhW3vBA1QU"
+                                    target="_blank"
+                                >
+                                    330 M de vistas • hace 2 años
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a
+                            href="https://www.youtube.com/watch?v=BxxS_Wg7o4c"
+                            target="_blank"
+                        >
+                            <img
+                                class="miniaturas-videos"
+                                src="Imagenes/miniatura12.jpg"
+                                alt="Miniatura 12"
+                            />
+                        </a>
+                        <div id="seccion-inferior-video">
+                            <div id="columna-imagen-canal">
+                                <a
+                                    class="imagenes-canales"
+                                    href="https://www.youtube.com/@escueladenada"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="Imagenes/imagen-canal6.jpg"
+                                        alt="Imagen Canal 11"
+                                    />
+                                </a>
+                            </div>
+                            <div id="columna-informacion-video">
+                                <a
+                                    class="titulo-video"
+                                    href="https://www.youtube.com/watch?v=BxxS_Wg7o4c"
+                                    target="_blank"
+                                >
+                                    Forzando la polémica: Stand Up vs <br />
+                                    Pelucas feat Marko - EDN & Friends #01
+                                    <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/@escueladenada"
+                                    target="_blank"
+                                >
+                                    Escuela de Nada <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/watch?v=BxxS_Wg7o4c"
+                                    target="_blank"
+                                >
+                                    475,355 vistas • hace 5 meses</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="fila2-videos">
+
+                    <div>
+                        <a
+                            href="https://www.youtube.com/watch?v=NynG-bzGMCo"
+                            target="_blank"
+                        >
+                            <img
+                                class="miniaturas-videos"
+                                src="Imagenes/miniatura13.jpg"
+                                alt="Miniatura 13"
+                            />
+                        </a>
+                        <div id="seccion-inferior-video">
+                            <div id="columna-imagen-canal">
+                                <a
+                                    class="imagenes-canales"
+                                    href="https://www.youtube.com/@qlqestacomida"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="Imagenes/imagen-canal10.jpg"
+                                        alt="Imagen Canal 10"
+                                    />
+                                </a>
+                            </div>
+                            <div id="columna-informacion-video">
+                                <a
+                                    class="titulo-video"
+                                    href="https://www.youtube.com/watch?v=NynG-bzGMCo"
+                                    target="_blank"
+                                >
+                                    Me voy CAMINANDO a la playa más <br />
+                                    lejana de la guaira / Puerto Maya... <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/@qlqestacomida"
+                                    target="_blank"
+                                >
+                                    Qlq Esta Comida <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/watch?v=NynG-bzGMCo"
+                                    target="_blank"
+                                >
+                                    73,216 vistas • hace 2 semanas
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a
+                            href="https://www.youtube.com/watch?v=VZrqFsaWqjY"
+                            target="_blank"
+                        >
+                            <img
+                                class="miniaturas-videos"
+                                src="Imagenes/miniatura14.jpg"
+                                alt="Miniatura 14"
+                            />
+                        </a>
+                        <div id="seccion-inferior-video">
+                            <div id="columna-imagen-canal">
+                                <a
+                                    class="imagenes-canales"
+                                    href="https://www.youtube.com/@FazzerHD"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="Imagenes/imagen-canal11.jpg"
+                                        alt="Imagen Canal 11"
+                                    />
+                                </a>
+                            </div>
+                            <div id="columna-informacion-video">
+                                <a
+                                    class="titulo-video"
+                                    href="https://www.youtube.com/watch?v=VZrqFsaWqjY"
+                                    target="_blank"
+                                >
+                                    Heroic Goalkeeper Performances In <br />
+                                    Football #2 <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/@FazzerHD"
+                                    target="_blank"
+                                >
+                                    Fazzer HD <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/watch?v=VZrqFsaWqjY"
+                                    target="_blank"
+                                >
+                                    3.5 M de vistas • hace 10 meses
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a
+                            href="https://www.youtube.com/watch?v=BKFGtloD7pA"
+                            target="_blank"
+                        >
+                            <img
+                                class="miniaturas-videos"
+                                src="Imagenes/miniatura15.jpg"
+                                alt="Miniatura 15"
+                            />
+                        </a>
+                        <div id="seccion-inferior-video">
+                            <div id="columna-imagen-canal">
+                                <a
+                                    class="imagenes-canales"
+                                    href="https://www.youtube.com/@ibai_"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="Imagenes/imagen-canal12.jpg"
+                                        alt="Imagen Canal 12"
+                                    />
+                                </a>
+                            </div>
+                            <div id="columna-informacion-video">
+                                <a
+                                    class="titulo-video"
+                                    href="https://www.youtube.com/watch?v=BKFGtloD7pA"
+                                    target="_blank"
+                                >
+                                    "ESTOY SATISFECHO CON MI TRABAJO - <br />
+                                    EN LA SELECCION" Charlando con Lui... <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/@ibai_"
+                                    target="_blank"
+                                >
+                                    Ibai <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/watch?v=BKFGtloD7pA"
+                                    target="_blank"
+                                >
+                                    754,942 vistas • hace 1 día
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a
+                            href="https://www.youtube.com/watch?v=Q2imkhmhOFo"
+                            target="_blank"
+                        >
+                            <img
+                                class="miniaturas-videos"
+                                src="Imagenes/miniatura16.jpg"
+                                alt="Miniatura 16"
+                            />
+                        </a>
+                        <div id="seccion-inferior-video">
+                            <div id="columna-imagen-canal">
+                                <a
+                                    class="imagenes-canales"
+                                    href="https://www.youtube.com/@FaztTech"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="Imagenes/imagen-canal13.jpg"
+                                        alt="Imagen Canal 13"
+                                    />
+                                </a>
+                            </div>
+                            <div id="columna-informacion-video">
+                                <a
+                                    class="titulo-video"
+                                    href="https://www.youtube.com/watch?v=Q2imkhmhOFo"
+                                    target="_blank"
+                                >
+                                    Sitio Web con HTML, CSS y Javascript <br />
+                                    (Flexbox, CSS Grid y ScrollReveal) |...
+                                    <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/@FaztTech"
+                                    target="_blank"
+                                >
+                                    Fazt <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/watch?v=Q2imkhmhOFo"
+                                    target="_blank"
+                                >
+                                    774,107 vistas • hace 2 años
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="fila2-videos">
+
+                    <div>
+                        <a
+                            href="https://www.youtube.com/watch?v=F9SByGMmFes"
+                            target="_blank"
+                        >
+                            <img
+                                class="miniaturas-videos"
+                                src="Imagenes/miniatura17.jpg"
+                                alt="Miniatura 17"
+                            />
+                        </a>
+                        <div id="seccion-inferior-video">
+                            <div id="columna-imagen-canal">
+                                <a
+                                    class="imagenes-canales"
+                                    href="https://www.youtube.com/@EntregradosShow"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="Imagenes/imagen-canal14.jpg"
+                                        alt="Imagen Canal 10"
+                                    />
+                                </a>
+                            </div>
+                            <div id="columna-informacion-video">
+                                <a
+                                    class="titulo-video"
+                                    href="https://www.youtube.com/watch?v=F9SByGMmFes"
+                                    target="_blank"
+                                >
+                                    Budu agarró el anís y soltó la lengua 👅
+                                    <br />
+                                    | Entregrados EP 29 / Puerto Maya... <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/@EntregradosShow"
+                                    target="_blank"
+                                >
+                                    Entregrados Show <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/watch?v=F9SByGMmFes"
+                                    target="_blank"
+                                >
+                                    2.2 M de vistas • hace 3 años
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a
+                            href="https://www.youtube.com/watch?v=3OZBdwv5fyU"
+                            target="_blank"
+                        >
+                            <img
+                                class="miniaturas-videos"
+                                src="Imagenes/miniatura18.jpg"
+                                alt="Miniatura 18"
+                            />
+                        </a>
+                        <div id="seccion-inferior-video">
+                            <div id="columna-imagen-canal">
+                                <a
+                                    class="imagenes-canales"
+                                    href="https://www.youtube.com/@Teloresumoasinomas"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="Imagenes/imagen-canal5.jpg"
+                                        alt="Imagen Canal 16"
+                                    />
+                                </a>
+                            </div>
+                            <div id="columna-informacion-video">
+                                <a
+                                    class="titulo-video"
+                                    href="https://www.youtube.com/watch?v=3OZBdwv5fyU"
+                                    target="_blank"
+                                >
+                                    La Trilogía de After | #TeLoResumo <br />
+                                    Football #2 <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/@Teloresumoasinomas"
+                                    target="_blank"
+                                >
+                                    Te Lo Resumo <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/watch?v=3OZBdwv5fyU"
+                                    target="_blank"
+                                >
+                                    1.6 M de vistas • hace 1 año
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a
+                            href="https://www.youtube.com/watch?v=eejdrucE1RQ"
+                            target="_blank"
+                        >
+                            <img
+                                class="miniaturas-videos"
+                                src="Imagenes/miniatura19.jpg"
+                                alt="Miniatura 19"
+                            />
+                        </a>
+                        <div id="seccion-inferior-video">
+                            <div id="columna-imagen-canal">
+                                <a
+                                    class="imagenes-canales"
+                                    href="https://www.youtube.com/@esttikSP"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="Imagenes/imagen-canal15.jpg"
+                                        alt="Imagen Canal 17"
+                                    />
+                                </a>
+                            </div>
+                            <div id="columna-informacion-video">
+                                <a
+                                    class="titulo-video"
+                                    href="https://www.youtube.com/watch?v=eejdrucE1RQ"
+                                    target="_blank"
+                                >
+                                    MI PRIMER RETO de COMIDA SIN <br />
+                                    BEBER AGUA 🌮 *TACO GIGANTE en... <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/@esttikSP"
+                                    target="_blank"
+                                >
+                                    Esttik <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/watch?v=eejdrucE1RQ"
+                                    target="_blank"
+                                >
+                                    1 M de vistas • hace 6 meses
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a
+                            href="https://www.youtube.com/watch?v=VaoGi2awPUk"
+                            target="_blank"
+                        >
+                            <img
+                                class="miniaturas-videos"
+                                src="Imagenes/miniatura20.jpg"
+                                alt="Miniatura 20"
+                            />
+                        </a>
+                        <div id="seccion-inferior-video">
+                            <div id="columna-imagen-canal">
+                                <a
+                                    class="imagenes-canales"
+                                    href="https://www.youtube.com/@Godzu"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="Imagenes/imagen-canal16.jpg"
+                                        alt="Imagen Canal 18"
+                                    />
+                                </a>
+                            </div>
+                            <div id="columna-informacion-video">
+                                <a
+                                    class="titulo-video"
+                                    href="https://www.youtube.com/watch?v=VaoGi2awPUk"
+                                    target="_blank"
+                                >
+                                    VOLIBEAR IS A MONSTER IN SEASON <br />
+                                    13 (PERMANENT W HEALING,... <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/@Godzu"
+                                    target="_blank"
+                                >
+                                    Godzu <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/watch?v=VaoGi2awPUk"
+                                    target="_blank"
+                                >
+                                    79,852 vistas • hace 2 semanas
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="fila2-videos">
+                    
+                    <div>
+                        <a
+                            href="https://www.youtube.com/watch?v=xYJulnlENmY&list=RDxYJulnlENmY&start_radio=1"
+                            target="_blank"
+                        >
+                            <img
+                                class="miniaturas-videos2"
+                                src="Imagenes/miniatura21.jpg"
+                                alt="Miniatura 21"
+                            />
+                        </a>
+                        <div id="seccion-inferior-video2">
+                            <div id="columna-imagen-canal"></div>
+                            <div id="columna-informacion-video">
+                                <a
+                                    class="titulo-video2"
+                                    href="https://www.youtube.com/watch?v=xYJulnlENmY&list=RDxYJulnlENmY&start_radio=1"
+                                    target="_blank"
+                                >
+                                    Mix: Eladio Carrión, Brytiago - 3 AM <br />
+                                    (Visualizer) | Sauce Boyz <br />
+                                </a>
+                                <a
+                                    class="texto-informativo2"
+                                    href="https://www.youtube.com/watch?v=xYJulnlENmY&list=RDxYJulnlENmY&start_radio=1"
+                                    target="_blank"
+                                >
+                                    Eladio Carrión, Bad Bunny, Bryant Myers y
+                                    muchos más
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a
+                            href="https://www.youtube.com/watch?v=Nxh-DhFMHB8"
+                            target="_blank"
+                        >
+                            <img
+                                class="miniaturas-videos"
+                                src="Imagenes/miniatura22.jpg"
+                                alt="Miniatura 22"
+                            />
+                        </a>
+                        <div id="seccion-inferior-video">
+                            <div id="columna-imagen-canal">
+                                <a
+                                    class="imagenes-canales"
+                                    href="https://www.youtube.com/@DjXthian"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="Imagenes/imagen-canal17.jpg"
+                                        alt="Imagen Canal 19"
+                                    />
+                                </a>
+                            </div>
+                            <div id="columna-informacion-video">
+                                <a
+                                    class="titulo-video"
+                                    href="https://www.youtube.com/watch?v=Nxh-DhFMHB8"
+                                    target="_blank"
+                                >
+                                    MIX REGGAETON OLD SCHOOL [LIVE] | <br />
+                                    DJ XTHIAN <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/@DjXthian"
+                                    target="_blank"
+                                >
+                                    Dj Xthian <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/watch?v=Nxh-DhFMHB8"
+                                    target="_blank"
+                                >
+                                    49 M de vistas • hace 2 años
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a
+                            href="https://www.youtube.com/watch?v=5XaOfQdZzek"
+                            target="_blank"
+                        >
+                            <img
+                                class="miniaturas-videos"
+                                src="Imagenes/miniatura23.jpg"
+                                alt="Miniatura 23"
+                            />
+                        </a>
+                        <div id="seccion-inferior-video">
+                            <div id="columna-imagen-canal">
+                                <a
+                                    class="imagenes-canales"
+                                    href="https://www.youtube.com/@afterrift"
+                                    target="_blank"
+                                >
+                                    <img
+                                        src="Imagenes/imagen-canal18.jpg"
+                                        alt="Imagen Canal 20"
+                                    />
+                                </a>
+                            </div>
+                            <div id="columna-informacion-video">
+                                <a
+                                    class="titulo-video"
+                                    href="https://www.youtube.com/watch?v=5XaOfQdZzek"
+                                    target="_blank"
+                                >
+                                    NOTAS DEL PARCHE 3.5B DE WILD <br />
+                                    RIFT: LLEGA LILLIA, EVENTO DE FLOR... <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/@afterrift"
+                                    target="_blank"
+                                >
+                                    After Rift <br />
+                                </a>
+                                <a
+                                    class="texto-informativo"
+                                    href="https://www.youtube.com/watch?v=5XaOfQdZzek"
+                                    target="_blank"
+                                >
+                                    3,809 vistas • hace 15 horas
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a
+                            href="https://www.youtube.com/watch?v=dlUJFeWbH9E&list=RDdlUJFeWbH9E&start_radio=1"
+                            target="_blank"
+                        >
+                            <img
+                                class="miniaturas-videos2"
+                                src="Imagenes/miniatura24.jpg"
+                                alt="Miniatura 24"
+                            />
+                        </a>
+                        <div id="seccion-inferior-video2">
+                            <div id="columna-imagen-canal"></div>
+                            <div id="columna-informacion-video">
+                                <a
+                                    class="titulo-video2"
+                                    href="https://www.youtube.com/watch?v=dlUJFeWbH9E&list=RDdlUJFeWbH9E&start_radio=1"
+                                    target="_blank"
+                                >
+                                    Mix: Mora - EN LA ORILLA (Visualizer) |
+                                    <br />
+                                    PARAÍSO <br />
+                                </a>
+                                <a
+                                    class="texto-informativo2"
+                                    href="https://www.youtube.com/watch?v=dlUJFeWbH9E&list=RDdlUJFeWbH9E&start_radio=1"
+                                    target="_blank"
+                                >
+                                    Mora, Bad Bunny, Jhay Cortez y muchos más
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
 
-        <div class="filas" id="fila2">
-            <div id="barradebusqueda">
-                <input type="text" placeholder="Buscar">
-            </div>
-            <button id="boton-busqueda">
-                <img id="imagen3" src="Imagenes/lupa-busqueda.ico" alt="Lupa Busqueda">
-            </button>
-            <button id="boton-microfono">
-                <img src="Imagenes/microfono.ico" alt="Microfono">
-            </button>
-        </div>
+    </body>
 
-        <div class="filas" id="fila3">
-            <button id="boton-camarita">
-                <img src="Imagenes/camarita.ico" alt="Camarita">
-            </button>
-            <button id="boton-campanita">
-                <img src="Imagenes/campanita.ico" alt="Campanita">
-            </button>
-            <button id="boton-imagen-perfil">
-                <img id="imagen4" src="Imagenes/imagen-perfil.ico" alt="Imagen Perfil">
-            </button>
-            
-        </div>
-    </nav>
-
-
-    <div id="contenido-general">
-
-        <aside id="barra-vertical">
-
-            <button id="boton-principal">
-                <img src="Imagenes/principal.ico" alt="Icono Principal">
-                <p>Principal</p>                           
-            </button>  
-            <button id="boton-shorts">
-                <img src="Imagenes/shorts.ico" alt="Icono Shorts">
-                <p>Shorts</p>
-            </button>
-            <button id="boton-suscripciones">
-                <img src="Imagenes/suscripciones.ico" alt="Icono Suscripciones">
-                <p>Suscripciones</p>
-            </button>
-            <button id="boton-biblioteca">
-                <img src="Imagenes/biblioteca.ico" alt="Icono Biblioteca">
-                <p>Biblioteca</p>
-            </button>
-    
-        </aside>
-    
-        <div id="fila-botones">
-    
-            <button>Todos</button>
-            <button >Musica</button>
-            <button >Deportes</button>
-            <button >Programacion</button>
-            <button >Mundial</button>
-            <button >Comedia</button>
-            <button >Noticias</button>
-            <button >Robert Jordan</button>
-            <button >Python</button>
-            <button >Canserbero</button>
-            <button>Messi</button>
-            <button>Ready Player One</button>
-            <button>PES 13</button>
-            <button>Terraria</button>
-            <button>Bad Bunny</button>
-            <button>Rush Rally 3</button>
-    
-        </div>
-
-        <div id="seccion-general-videos">
-
-            <div id="fila1-videos">
-
-                <div>
-                    <a href="https://www.youtube.com/watch?v=r12ROrvh5ZQ" target="_blank">
-                        <img class="miniaturas-videos" src="Imagenes/miniatura1.jpg" alt="Miniatura 1">
-                    </a>
-                    <div id="seccion-inferior-video">
-                        <div id="columna-imagen-canal">
-                            <a class="imagenes-canales" href="https://www.youtube.com/@MachuElBibliotecario" target="_blank">                                                                                         
-                                <img src="Imagenes/imagen-canal1.jpg" alt="Imagen Canal 1">
-                            </a>                        
-                        </div>
-                        <div id="columna-informacion-video">
-                            <a class="titulo-video" href="https://www.youtube.com/watch?v=r12ROrvh5ZQ" target="_blank"> FEID - Feliz Cumpleaños Ferxxo <br> (Letra/Lyric) <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/@MachuElBibliotecario" target="_blank"> Santi <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/watch?v=r12ROrvh5ZQ" target="_blank"> 4 M de vistas • hace 3 meses </a> 
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <a href="https://www.youtube.com/watch?v=TNOnIWxCUoQ" target="_blank">
-                        <img class="miniaturas-videos" src="Imagenes/miniatura2.jpg" alt="Miniatura 2">
-                    </a>
-                    <div id="seccion-inferior-video">
-                        <div id="columna-imagen-canal">
-                            <a class="imagenes-canales" href="https://www.youtube.com/@UbamanMobile" target="_blank">                                                                                         
-                                <img src="Imagenes/imagen-canal2.jpg" alt="Imagen Canal 2">
-                            </a>                        
-                        </div>
-                        <div id="columna-informacion-video">
-                            <a class="titulo-video" href="https://www.youtube.com/watch?v=TNOnIWxCUoQ" target="_blank"> ¡COUNTER A DARIUS EN <br> CLASIFICATORIA! | Wild Rift <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/@UbamanMobile" target="_blank"> Ubaman Mobile <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/watch?v=TNOnIWxCUoQ" target="_blank"> 10,655 vistas • hace 20 horas  </a> 
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <a href="https://www.youtube.com/watch?v=TdrL3QxjyVw&list=RDGMEM6ijAnFTG9nX1G-kbWBUCJAVMTdrL3QxjyVw&start_radio=1" target="_blank">
-                        <img class="miniaturas-videos2" src="Imagenes/miniatura3.jpg" alt="Miniatura 3">
-                    </a>
-                    <div id="seccion-inferior-video2">
-                        <div id="columna-imagen-canal">                    
-                        </div>
-                        <div id="columna-informacion-video">
-                            <a class="titulo-video2" href="https://www.youtube.com/watch?v=TdrL3QxjyVw&list=RDGMEM6ijAnFTG9nX1G-kbWBUCJAVMTdrL3QxjyVw&start_radio=1" target="_blank"> Lana del Rey - Summertime Sadness <br> (Official Music Video) <br> </a>
-                            <a class="texto-informativo2" href="https://www.youtube.com/watch?v=TdrL3QxjyVw&list=RDGMEM6ijAnFTG9nX1G-kbWBUCJAVMTdrL3QxjyVw&start_radio=1" target="_blank"> Lana del Rey, Alice Kristiansen, Tove Lo y muchos más </a> 
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <a href="https://www.youtube.com/watch?v=Wf4RpMjmO9w&t=41s" target="_blank">
-                        <img class="miniaturas-videos" src="Imagenes/miniatura4.jpg" alt="Miniatura 4">
-                    </a>
-                    <div id="seccion-inferior-video">
-                        <div id="columna-imagen-canal">
-                            <a class="imagenes-canales" href="https://www.youtube.com/@CoreanoLocoTV" target="_blank">                                                                                         
-                                <img src="Imagenes/imagen-canal3.jpg" alt="Imagen Canal 3">
-                            </a>                        
-                        </div>
-                        <div id="columna-informacion-video">
-                            <a class="titulo-video" href="https://www.youtube.com/watch?v=Wf4RpMjmO9w&t=41s" target="_blank"> COREANO PRUEBA COMIDA <br> COLOMBIANA 😂co Ep. 18 <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/@CoreanoLocoTV" target="_blank"> COREANO LOCO TV <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/watch?v=Wf4RpMjmO9w&t=41s" target="_blank"> 10,655 vistas • hace 20 horas</a> 
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div id="fila2-videos">
-
-                <div>
-                    <a href="https://www.youtube.com/watch?v=T11Le1uLL8U" target="_blank">
-                        <img class="miniaturas-videos" src="Imagenes/miniatura5.jpg" alt="Miniatura 5">
-                    </a>
-                    <div id="seccion-inferior-video">
-                        <div id="columna-imagen-canal">
-                            <a class="imagenes-canales" href="https://www.youtube.com/@DosLocosDeViaje" target="_blank">                                                                                         
-                                <img src="Imagenes/imagen-canal4.jpg" alt="Imagen Canal 4">
-                            </a>                        
-                        </div>
-                        <div id="columna-informacion-video">
-                            <a class="titulo-video" href="https://www.youtube.com/watch?v=T11Le1uLL8U" target="_blank"> Fuimos a un CARACAS MAGALLANES <br> @Ary Tenorio | Cambiaron las... <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/@DosLocosDeViaje" target="_blank"> Dos Locos De Viaje <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/watch?v=T11Le1uLL8U" target="_blank"> 76,057 vistas • hace 2 semanas </a> 
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <a href="https://www.youtube.com/watch?v=_AFuWCk5LR8" target="_blank">
-                        <img class="miniaturas-videos" src="Imagenes/miniatura6.jpg" alt="Miniatura 6">
-                    </a>
-                    <div id="seccion-inferior-video">
-                        <div id="columna-imagen-canal">
-                            <a class="imagenes-canales" href="https://www.youtube.com/@Teloresumoasinomas" target="_blank">                                                                                         
-                                <img src="Imagenes/imagen-canal5.jpg" alt="Imagen Canal 5">
-                            </a>                        
-                        </div>
-                        <div id="columna-informacion-video">
-                            <a class="titulo-video" href="https://www.youtube.com/watch?v=_AFuWCk5LR8" target="_blank"> Divergente, Como Los Juegos Del <br> Hambre Pero Peor | #TeLoResumo <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/@Teloresumoasinomas" target="_blank"> Te Lo Resumo <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/watch?v=_AFuWCk5LR8" target="_blank"> 4 M de vistas • hace 2 años </a> 
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <a href="https://www.youtube.com/watch?v=Bg8-DD3iUS0&t=2362s" target="_blank">
-                        <img class="miniaturas-videos" src="Imagenes/miniatura7.jpg" alt="Miniatura 7">
-                    </a>
-                    <div id="seccion-inferior-video">
-                        <div id="columna-imagen-canal">
-                            <a class="imagenes-canales" href="https://www.youtube.com/@escueladenada" target="_blank">                                                                                         
-                                <img src="Imagenes/imagen-canal6.jpg" alt="Imagen Canal 6">
-                            </a>                        
-                        </div>
-                        <div id="columna-informacion-video">
-                            <a class="titulo-video" href="https://www.youtube.com/watch?v=Bg8-DD3iUS0&t=2362s" target="_blank"> ¿Cómo se construye una leyenda? feat. <br> Arcangél - EDN & Friends #24 <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/@escueladenada" target="_blank"> Escuela de Nada <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/watch?v=Bg8-DD3iUS0&t=2362s" target="_blank"> 670,722 vistas • hace 5 días </a> 
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <a href="https://www.youtube.com/watch?v=hoQmSA6MRAk&list=RDhoQmSA6MRAk&start_radio=1" target="_blank">
-                        <img class="miniaturas-videos2" src="Imagenes/miniatura8.jpg" alt="Miniatura 8">
-                    </a>
-                    <div id="seccion-inferior-video2">
-                        <div id="columna-imagen-canal">                    
-                        </div>
-                        <div id="columna-informacion-video">
-                            <a class="titulo-video2" href="https://www.youtube.com/watch?v=hoQmSA6MRAk&list=RDhoQmSA6MRAk&start_radio=1" target="_blank"> Mix: BAD BUNNY - OTRA NOCHE EN MIAMI | <br> X100PRE [Visualizer] <br> </a>
-                            <a class="texto-informativo2" href="https://www.youtube.com/watch?v=hoQmSA6MRAk&list=RDhoQmSA6MRAk&start_radio=1" target="_blank"> Bad Bunny, J Balvin, Mora y mucho más </a> 
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div id="fila2-videos">
-
-                <div>
-                    <a href="https://www.youtube.com/watch?v=C-Bivj9PLXk" target="_blank">
-                        <img class="miniaturas-videos" src="Imagenes/miniatura9.jpg" alt="Miniatura 9">
-                    </a>
-                    <div id="seccion-inferior-video">
-                        <div id="columna-imagen-canal">
-                            <a class="imagenes-canales" href="https://www.youtube.com/@Platzi" target="_blank">                                                                                         
-                                <img src="Imagenes/imagen-canal7.jpg" alt="Imagen Canal 7">
-                            </a>                        
-                        </div>
-                        <div id="columna-informacion-video">
-                            <a class="titulo-video" href="https://www.youtube.com/watch?v=C-Bivj9PLXk" target="_blank"> Qué lenguaje de programación aprender <br> primero <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/@Platzi" target="_blank"> Platzi <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/watch?v=C-Bivj9PLXk" target="_blank"> 826,717 vistas • hace 1 año </a> 
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <a href="https://www.youtube.com/watch?v=r0tfMFpPFSA" target="_blank">
-                        <img class="miniaturas-videos" src="Imagenes/miniatura10.jpg" alt="Miniatura 10">
-                    </a>
-                    <div id="seccion-inferior-video">
-                        <div id="columna-imagen-canal">
-                            <a class="imagenes-canales" href="https://www.youtube.com/@TheWildProject" target="_blank">                                                                                         
-                                <img src="Imagenes/imagen-canal8.jpg" alt="Imagen Canal 8">
-                            </a>                        
-                        </div>
-                        <div id="columna-informacion-video">
-                            <a class="titulo-video" href="https://www.youtube.com/watch?v=r0tfMFpPFSA" target="_blank"> Hacker deja loco a Jordi Wild entrando <br> en su móvil sin que se dé cuenta <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/@TheWildProject" target="_blank"> The Wild Project <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/watch?v=r0tfMFpPFSA" target="_blank"> 1.9 M de vistas • hace 2 semanas </a> 
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <a href="https://www.youtube.com/watch?v=BjhW3vBA1QU" target="_blank">
-                        <img class="miniaturas-videos" src="Imagenes/miniatura11.jpg" alt="Miniatura 11">
-                    </a>
-                    <div id="seccion-inferior-video">
-                        <div id="columna-imagen-canal">
-                            <a class="imagenes-canales" href="https://www.youtube.com/channel/UCt-k6JwNWHMXDBGm9IYHdsg" target="_blank">                                                                                         
-                                <img src="Imagenes/imagen-canal9.jpg" alt="Imagen Canal 9">
-                            </a>                        
-                        </div>
-                        <div id="columna-informacion-video">
-                            <a class="titulo-video" href="https://www.youtube.com/watch?v=BjhW3vBA1QU" target="_blank"> J Balvin, Dua Lipa, Bad Bunny, Tainy - <br> UN DIA (ONE DAY) <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/channel/UCt-k6JwNWHMXDBGm9IYHdsg" target="_blank"> J Balvin <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/watch?v=BjhW3vBA1QU" target="_blank"> 330 M de vistas • hace 2 años </a> 
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <a href="https://www.youtube.com/watch?v=BxxS_Wg7o4c" target="_blank">
-                        <img class="miniaturas-videos" src="Imagenes/miniatura12.jpg" alt="Miniatura 12">
-                    </a>
-                    <div id="seccion-inferior-video">
-                        <div id="columna-imagen-canal">
-                            <a class="imagenes-canales" href="https://www.youtube.com/@escueladenada" target="_blank">                                                                                         
-                                <img src="Imagenes/imagen-canal6.jpg" alt="Imagen Canal 11">
-                            </a>                        
-                        </div>
-                        <div id="columna-informacion-video">
-                            <a class="titulo-video" href="https://www.youtube.com/watch?v=BxxS_Wg7o4c" target="_blank"> Forzando la polémica: Stand Up vs <br> Pelucas feat Marko - EDN & Friends #01 <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/@escueladenada" target="_blank"> Escuela de Nada <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/watch?v=BxxS_Wg7o4c" target="_blank"> 475,355 vistas • hace 5 meses</a> 
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div id="fila2-videos">
-
-                <div>
-                    <a href="https://www.youtube.com/watch?v=NynG-bzGMCo" target="_blank">
-                        <img class="miniaturas-videos" src="Imagenes/miniatura13.jpg" alt="Miniatura 13">
-                    </a>
-                    <div id="seccion-inferior-video">
-                        <div id="columna-imagen-canal">
-                            <a class="imagenes-canales" href="https://www.youtube.com/@qlqestacomida" target="_blank">                                                                                         
-                                <img src="Imagenes/imagen-canal10.jpg" alt="Imagen Canal 10">
-                            </a>                        
-                        </div>
-                        <div id="columna-informacion-video">
-                            <a class="titulo-video" href="https://www.youtube.com/watch?v=NynG-bzGMCo" target="_blank"> Me voy CAMINANDO a la playa más <br> lejana de la guaira / Puerto Maya... <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/@qlqestacomida" target="_blank"> Qlq Esta Comida <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/watch?v=NynG-bzGMCo" target="_blank"> 73,216 vistas • hace 2 semanas </a> 
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <a href="https://www.youtube.com/watch?v=VZrqFsaWqjY" target="_blank">
-                        <img class="miniaturas-videos" src="Imagenes/miniatura14.jpg" alt="Miniatura 14">
-                    </a>
-                    <div id="seccion-inferior-video">
-                        <div id="columna-imagen-canal">
-                            <a class="imagenes-canales" href="https://www.youtube.com/@FazzerHD" target="_blank">                                                                                         
-                                <img src="Imagenes/imagen-canal11.jpg" alt="Imagen Canal 11">
-                            </a>                        
-                        </div>
-                        <div id="columna-informacion-video">
-                            <a class="titulo-video" href="https://www.youtube.com/watch?v=VZrqFsaWqjY" target="_blank"> Heroic Goalkeeper Performances In <br> Football #2 <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/@FazzerHD" target="_blank"> Fazzer HD <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/watch?v=VZrqFsaWqjY" target="_blank"> 3.5 M de vistas • hace 10 meses </a> 
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <a href="https://www.youtube.com/watch?v=BKFGtloD7pA" target="_blank">
-                        <img class="miniaturas-videos" src="Imagenes/miniatura15.jpg" alt="Miniatura 15">
-                    </a>
-                    <div id="seccion-inferior-video">
-                        <div id="columna-imagen-canal">
-                            <a class="imagenes-canales" href="https://www.youtube.com/@ibai_" target="_blank">                                                                                         
-                                <img src="Imagenes/imagen-canal12.jpg" alt="Imagen Canal 12">
-                            </a>                        
-                        </div>
-                        <div id="columna-informacion-video">
-                            <a class="titulo-video" href="https://www.youtube.com/watch?v=BKFGtloD7pA" target="_blank"> "ESTOY SATISFECHO CON MI TRABAJO - <br> EN LA SELECCION" Charlando con Lui... <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/@ibai_" target="_blank"> Ibai <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/watch?v=BKFGtloD7pA" target="_blank"> 754,942 vistas • hace 1 día </a> 
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <a href="https://www.youtube.com/watch?v=Q2imkhmhOFo" target="_blank">
-                        <img class="miniaturas-videos" src="Imagenes/miniatura16.jpg" alt="Miniatura 16">
-                    </a>
-                    <div id="seccion-inferior-video">
-                        <div id="columna-imagen-canal">
-                            <a class="imagenes-canales" href="https://www.youtube.com/@FaztTech" target="_blank">                                                                                         
-                                <img src="Imagenes/imagen-canal13.jpg" alt="Imagen Canal 13">
-                            </a>                        
-                        </div>
-                        <div id="columna-informacion-video">
-                            <a class="titulo-video" href="https://www.youtube.com/watch?v=Q2imkhmhOFo" target="_blank"> Sitio Web con HTML, CSS y Javascript <br> (Flexbox, CSS Grid y ScrollReveal) |... <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/@FaztTech" target="_blank"> Fazt <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/watch?v=Q2imkhmhOFo" target="_blank"> 774,107 vistas • hace 2 años </a> 
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div id="fila2-videos">
-
-                <div>
-                    <a href="https://www.youtube.com/watch?v=F9SByGMmFes" target="_blank">
-                        <img class="miniaturas-videos" src="Imagenes/miniatura17.jpg" alt="Miniatura 17">
-                    </a>
-                    <div id="seccion-inferior-video">
-                        <div id="columna-imagen-canal">
-                            <a class="imagenes-canales" href="https://www.youtube.com/@EntregradosShow" target="_blank">                                                                                         
-                                <img src="Imagenes/imagen-canal14.jpg" alt="Imagen Canal 10">
-                            </a>                        
-                        </div>
-                        <div id="columna-informacion-video">
-                            <a class="titulo-video" href="https://www.youtube.com/watch?v=F9SByGMmFes" target="_blank"> Budu agarró el anís y soltó la lengua 👅 <br> | Entregrados EP 29 / Puerto Maya... <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/@EntregradosShow" target="_blank"> Entregrados Show <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/watch?v=F9SByGMmFes" target="_blank"> 2.2 M de vistas • hace 3 años </a> 
-                        </div>
-                    </div>
-                </div>
-                
-                <div>
-                    <a href="https://www.youtube.com/watch?v=3OZBdwv5fyU" target="_blank">
-                        <img class="miniaturas-videos" src="Imagenes/miniatura18.jpg" alt="Miniatura 18">
-                    </a>
-                    <div id="seccion-inferior-video">
-                        <div id="columna-imagen-canal">
-                            <a class="imagenes-canales" href="https://www.youtube.com/@Teloresumoasinomas" target="_blank">                                                                                         
-                                <img src="Imagenes/imagen-canal5.jpg" alt="Imagen Canal 16">
-                            </a>                        
-                        </div>
-                        <div id="columna-informacion-video">
-                            <a class="titulo-video" href="https://www.youtube.com/watch?v=3OZBdwv5fyU" target="_blank"> La Trilogía de After | #TeLoResumo <br> Football #2 <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/@Teloresumoasinomas" target="_blank"> Te Lo Resumo <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/watch?v=3OZBdwv5fyU" target="_blank"> 1.6 M de vistas • hace 1 año </a> 
-                        </div>
-                    </div>
-                </div>
-                
-                <div>
-                    <a href="https://www.youtube.com/watch?v=eejdrucE1RQ" target="_blank">
-                        <img class="miniaturas-videos" src="Imagenes/miniatura19.jpg" alt="Miniatura 19">
-                    </a>
-                    <div id="seccion-inferior-video">
-                        <div id="columna-imagen-canal">
-                            <a class="imagenes-canales" href="https://www.youtube.com/@esttikSP" target="_blank">                                                                                         
-                                <img src="Imagenes/imagen-canal15.jpg" alt="Imagen Canal 17">
-                            </a>                        
-                        </div>
-                        <div id="columna-informacion-video">
-                            <a class="titulo-video" href="https://www.youtube.com/watch?v=eejdrucE1RQ" target="_blank"> MI PRIMER RETO de COMIDA SIN <br> BEBER AGUA 🌮 *TACO GIGANTE en... <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/@esttikSP" target="_blank"> Esttik <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/watch?v=eejdrucE1RQ" target="_blank"> 1 M de vistas • hace 6 meses </a> 
-                        </div>
-                    </div>
-                </div>
-                
-                <div>
-                    <a href="https://www.youtube.com/watch?v=VaoGi2awPUk" target="_blank">
-                        <img class="miniaturas-videos" src="Imagenes/miniatura20.jpg" alt="Miniatura 20">
-                    </a>
-                    <div id="seccion-inferior-video">
-                        <div id="columna-imagen-canal">
-                            <a class="imagenes-canales" href="https://www.youtube.com/@Godzu" target="_blank">                                                                                         
-                                <img src="Imagenes/imagen-canal16.jpg" alt="Imagen Canal 18">
-                            </a>                        
-                        </div>
-                        <div id="columna-informacion-video">
-                            <a class="titulo-video" href="https://www.youtube.com/watch?v=VaoGi2awPUk" target="_blank"> VOLIBEAR IS A MONSTER IN SEASON <br> 13 (PERMANENT W HEALING,... <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/@Godzu" target="_blank"> Godzu <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/watch?v=VaoGi2awPUk" target="_blank"> 79,852 vistas • hace 2 semanas </a> 
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-
-            <div id="fila2-videos">
-
-                <div>
-                    <a href="https://www.youtube.com/watch?v=xYJulnlENmY&list=RDxYJulnlENmY&start_radio=1" target="_blank">
-                        <img class="miniaturas-videos2" src="Imagenes/miniatura21.jpg" alt="Miniatura 21">
-                    </a>
-                    <div id="seccion-inferior-video2">
-                        <div id="columna-imagen-canal">                    
-                        </div>
-                        <div id="columna-informacion-video">
-                            <a class="titulo-video2" href="https://www.youtube.com/watch?v=xYJulnlENmY&list=RDxYJulnlENmY&start_radio=1" target="_blank"> Mix: Eladio Carrión, Brytiago - 3 AM <br> (Visualizer) | Sauce Boyz <br> </a>
-                            <a class="texto-informativo2" href="https://www.youtube.com/watch?v=xYJulnlENmY&list=RDxYJulnlENmY&start_radio=1" target="_blank"> Eladio Carrión, Bad Bunny, Bryant Myers y muchos más </a> 
-                        </div>
-                    </div>
-                </div>
-                
-                <div>
-                    <a href="https://www.youtube.com/watch?v=Nxh-DhFMHB8" target="_blank">
-                        <img class="miniaturas-videos" src="Imagenes/miniatura22.jpg" alt="Miniatura 22">
-                    </a>
-                    <div id="seccion-inferior-video">
-                        <div id="columna-imagen-canal">
-                            <a class="imagenes-canales" href="https://www.youtube.com/@DjXthian" target="_blank">                                                                                         
-                                <img src="Imagenes/imagen-canal17.jpg" alt="Imagen Canal 19">
-                            </a>                        
-                        </div>
-                        <div id="columna-informacion-video">
-                            <a class="titulo-video" href="https://www.youtube.com/watch?v=Nxh-DhFMHB8" target="_blank"> MIX REGGAETON OLD SCHOOL [LIVE] | <br> DJ XTHIAN <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/@DjXthian" target="_blank"> Dj Xthian <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/watch?v=Nxh-DhFMHB8" target="_blank"> 49 M de vistas • hace 2 años </a> 
-                        </div>
-                    </div>
-                </div>
-                
-                <div>
-                    <a href="https://www.youtube.com/watch?v=5XaOfQdZzek" target="_blank">
-                        <img class="miniaturas-videos" src="Imagenes/miniatura23.jpg" alt="Miniatura 23">
-                    </a>
-                    <div id="seccion-inferior-video">
-                        <div id="columna-imagen-canal">
-                            <a class="imagenes-canales" href="https://www.youtube.com/@afterrift" target="_blank">                                                                                         
-                                <img src="Imagenes/imagen-canal18.jpg" alt="Imagen Canal 20">
-                            </a>                        
-                        </div>
-                        <div id="columna-informacion-video">
-                            <a class="titulo-video" href="https://www.youtube.com/watch?v=5XaOfQdZzek" target="_blank"> NOTAS DEL PARCHE 3.5B DE WILD <br> RIFT: LLEGA LILLIA, EVENTO DE FLOR... <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/@afterrift" target="_blank"> After Rift <br> </a>
-                            <a class="texto-informativo" href="https://www.youtube.com/watch?v=5XaOfQdZzek" target="_blank"> 3,809 vistas • hace 15 horas </a> 
-                        </div>
-                    </div>
-                </div>
-                
-                <div>
-                    <a href="https://www.youtube.com/watch?v=dlUJFeWbH9E&list=RDdlUJFeWbH9E&start_radio=1" target="_blank">
-                        <img class="miniaturas-videos2" src="Imagenes/miniatura24.jpg" alt="Miniatura 24">
-                    </a>
-                    <div id="seccion-inferior-video2">
-                        <div id="columna-imagen-canal">                    
-                        </div>
-                        <div id="columna-informacion-video">
-                            <a class="titulo-video2" href="https://www.youtube.com/watch?v=dlUJFeWbH9E&list=RDdlUJFeWbH9E&start_radio=1" target="_blank"> Mix: Mora - EN LA ORILLA (Visualizer) | <br> PARAÍSO <br> </a>
-                            <a class="texto-informativo2" href="https://www.youtube.com/watch?v=dlUJFeWbH9E&list=RDdlUJFeWbH9E&start_radio=1" target="_blank"> Mora, Bad Bunny, Jhay Cortez y muchos más </a> 
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-
-        </div>
-
-    </div>
-    
-</body>
 </html>
